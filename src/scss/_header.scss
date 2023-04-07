@@ -1,25 +1,42 @@
-.header {
-    position: absolute;
-    top: 25px;
-    text-transform: uppercase;
-}
-
 .bg-header {
-
-  background-image: url(../images/banner.png);
+  background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
 }
+ .header-conteiner {
+  font-size: 11px;
+  position: absolute;
+  top: 25px;
 
-.logo a {
-    text-decoration: none;
-}
-.logo-img {
-    width: 24px;
-    height: 24px;
-}
+  display: flex;
+  flex-wrap: wrap;
 
-.navigation li{
-  list-style-type: none;
-  display: inline;
-}
+    .logo-img {
+     width: 24px;
+     height: 24px;
+  }
+
+    a {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #CACACA;;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .header-list {
+  
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .header-item {
+      margin-right: 24px;
+    }
+
+    .header-item:last-child {
+      margin-right: 0;
+    }
+ }
