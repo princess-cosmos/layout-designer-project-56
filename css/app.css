@@ -9,6 +9,12 @@
   src: url(../fonts/Roboto-Bold.ttf);
 }
 * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
   font-family: Roboto, sans-serif;
   line-height: 1.5;
   color: #CACACA;
@@ -18,6 +24,7 @@
 
 .conteiner {
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -34,28 +41,38 @@ h2 {
   font-weight: bold;
 }
 
-.header {
-  position: absolute;
-  top: 25px;
-  text-transform: uppercase;
-}
-
 .bg-header {
-  background-image: url(../images/banner.png);
+  background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
 }
 
-.logo a {
-  text-decoration: none;
+.header-conteiner {
+  font-size: 11px;
+  position: absolute;
+  top: 25px;
+  display: flex;
+  flex-wrap: wrap;
 }
-
-.logo-img {
+.header-conteiner .logo-img {
   width: 24px;
   height: 24px;
 }
-
-.navigation li {
-  list-style-type: none;
-  display: inline;
+.header-conteiner a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #CACACA;
+}
+.header-conteiner li {
+  list-style: none;
+}
+.header-conteiner .header-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header-conteiner .header-item {
+  margin-right: 24px;
+}
+.header-conteiner .header-item:last-child {
+  margin-right: 0;
 }
