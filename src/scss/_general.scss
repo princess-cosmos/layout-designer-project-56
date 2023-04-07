@@ -1,0 +1,38 @@
+@font-face {
+    font-weight: 400;
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+* {
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  color: #CACACA;
+  background: #08020D;
+  box-sizing: border-box;
+}
+
+.conteiner {
+  max-width: 1200px;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+

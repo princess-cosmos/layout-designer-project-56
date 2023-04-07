@@ -1,0 +1,25 @@
+.header {
+    position: absolute;
+    top: 25px;
+    text-transform: uppercase;
+}
+
+.bg-header {
+
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.logo a {
+    text-decoration: none;
+}
+.logo-img {
+    width: 24px;
+    height: 24px;
+}
+
+.navigation li{
+  list-style-type: none;
+  display: inline;
+}
