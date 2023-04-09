@@ -1,20 +1,31 @@
+@import "./variables";
+@import "./general";
+
 .bg-header {
-  background-image: url("../images/banner.png");
+  background: url(/src/images/banner.png);
   background-position: center;
   background-size: cover;
 }
+
  .header-conteiner {
+  width: 1200px;
   font-size: 11px;
   position: absolute;
   top: 25px;
 
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 
     .logo-img {
      width: 24px;
      height: 24px;
+     margin-right: 16px;
   }
+
+    .logo-text {
+    margin-right: 90px;
+   }
 
     a {
       text-transform: uppercase;
@@ -27,7 +38,6 @@
     }
 
     .header-list {
-  
       display: flex;
       flex-wrap: wrap;
     }
@@ -40,3 +50,67 @@
       margin-right: 0;
     }
  }
+
+ .header-search {
+  background: $dark;
+  border-radius: 50px;
+  width: 248px;
+  height: 25px;
+  border: 0;
+
+  &::placeholder {
+  text-transform: uppercase;
+  color: #757575;
+  padding-left: 10px;
+  }
+ }
+
+
+ .description {
+  padding: 200px 0;
+  text-align: center;
+  color: $white;
+ }
+
+ .mr-top {
+  margin-top: 31px;
+ }
+
+ .fieldset-form {
+  border: 0;
+  margin-top: 17px;
+ }
+
+ .form-seach {
+  min-width: 270px;
+  min-height: 50px;
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+  border: 2px solid #cacaca;
+  border-radius: 3px;
+  background-color: transparent;
+ }
+
+ .form-seach::placeholder {
+  color: $white;
+  font-weight: 700;
+  font-size: 14px;
+ }
+
+.mr-right {  
+  margin-right: 24px;
+}
+
+.btn {
+  text-transform: uppercase;
+  height: 57px;
+  min-width: 570px;
+  color: $white;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: 0;
+ }
+
+.color-green {
+  background-color: $green;
+}
