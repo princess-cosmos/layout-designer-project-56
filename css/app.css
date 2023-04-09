@@ -16,6 +16,51 @@
 
 body {
   font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #CACACA;
+  background: #08020D;
+  box-sizing: border-box;
+}
+
+.conteiner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
   line-height: 1.5;
   color: #CACACA;
   background: #08020D;
@@ -42,21 +87,27 @@ h2 {
 }
 
 .bg-header {
-  background-image: url("../images/banner.png");
+  background: url(/src/images/banner.png);
   background-position: center;
   background-size: cover;
 }
 
 .header-conteiner {
+  width: 1200px;
   font-size: 11px;
   position: absolute;
   top: 25px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .header-conteiner .logo-img {
   width: 24px;
   height: 24px;
+  margin-right: 16px;
+}
+.header-conteiner .logo-text {
+  margin-right: 90px;
 }
 .header-conteiner a {
   text-transform: uppercase;
@@ -75,4 +126,77 @@ h2 {
 }
 .header-conteiner .header-item:last-child {
   margin-right: 0;
+}
+
+.header-search {
+  background: #3C3B3D;
+  border-radius: 50px;
+  width: 248px;
+  height: 25px;
+  border: 0;
+}
+.header-search::-moz-placeholder {
+  text-transform: uppercase;
+  color: #757575;
+  padding-left: 10px;
+}
+.header-search::placeholder {
+  text-transform: uppercase;
+  color: #757575;
+  padding-left: 10px;
+}
+
+.description {
+  padding: 200px 0;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.mr-top {
+  margin-top: 31px;
+}
+
+.fieldset-form {
+  border: 0;
+  margin-top: 17px;
+}
+
+.form-seach {
+  min-width: 270px;
+  min-height: 50px;
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+  border: 2px solid #cacaca;
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+.form-seach::-moz-placeholder {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.form-seach::placeholder {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.mr-right {
+  margin-right: 24px;
+}
+
+.btn {
+  text-transform: uppercase;
+  height: 57px;
+  min-width: 570px;
+  color: #FFFFFF;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.color-green {
+  background-color: #34C176;
 }
