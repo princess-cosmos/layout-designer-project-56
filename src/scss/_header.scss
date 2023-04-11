@@ -8,7 +8,6 @@
 }
 
  .header-conteiner {
-  width: 1200px;
   font-size: 11px;
   position: absolute;
   top: 25px;
@@ -17,14 +16,18 @@
   flex-wrap: wrap;
   justify-content: space-between;
 
+
     .logo-img {
-     width: 24px;
-     height: 24px;
-     margin-right: 16px;
+      width: 24px;
+      height: 24px;
+      margin-right: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
   }
 
     .logo-text {
-    margin-right: 90px;
+      margin-right: 90px;
    }
 
     a {
@@ -40,6 +43,7 @@
     .header-list {
       display: flex;
       flex-wrap: wrap;
+      align-items: center;
     }
 
     .header-item {
@@ -52,17 +56,17 @@
  }
 
  .header-search {
-  background: $dark;
-  border-radius: 50px;
-  width: 248px;
-  height: 25px;
-  border: 0;
+    background: $dark;
+    border-radius: 50px;
+    width: 248px;
+    height: 25px;
+    border: 0;
 
-  &::placeholder {
-  text-transform: uppercase;
-  color: #757575;
-  padding-left: 10px;
-  }
+    &::placeholder {
+      text-transform: uppercase;
+      color: #757575;
+      padding-left: 10px;
+    }
  }
 
 
@@ -109,8 +113,20 @@
   padding: 20px 30px;
   border-radius: 5px;
   border: 0;
+  cursor: pointer;
  }
 
 .color-green {
   background-color: $green;
+}
+
+@media (max-width: 414px) {
+  .form-seach {
+    display: flex;
+    flex-grow: 1;
+
+    input {
+      width: 100%;
+    }
+  }
 }
