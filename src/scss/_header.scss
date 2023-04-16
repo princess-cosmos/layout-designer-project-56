@@ -1,5 +1,4 @@
 @import "./variables";
-@import "./general";
 
 .bg-header {
   background: url(/src/images/banner.png);
@@ -7,23 +6,27 @@
   background-size: cover;
 }
 
- .header-conteiner {
+.header-wrapper {
   font-size: 11px;
   position: absolute;
   top: 25px;
 
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
 
-
+  .header-logo {
+    display: flex;
+    align-items: center;
+     
     .logo-img {
+      display: flex;
       width: 24px;
       height: 24px;
       margin-right: 16px;
-      display: flex;
-      flex-wrap: wrap;
       align-items: center;
+  }
   }
 
     .logo-text {
@@ -33,11 +36,17 @@
     a {
       text-transform: uppercase;
       text-decoration: none;
-      color: #CACACA;;
+      color: #CACACA;
     }
 
     li {
       list-style: none;
+    }
+
+    .header-conteiner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
 
     .header-list {
@@ -51,7 +60,7 @@
     }
 
     .header-item:last-child {
-      margin-right: 0;
+      margin-right: 445.44px;
     }
  }
 
@@ -63,12 +72,12 @@
     border: 0;
 
     &::placeholder {
+      font-size: 13.3px;
       text-transform: uppercase;
       color: #757575;
       padding-left: 10px;
     }
  }
-
 
  .description {
   padding: 200px 0;
@@ -101,14 +110,14 @@
   font-size: 14px;
  }
 
-.mr-right {  
+.mr {  
   margin-right: 24px;
 }
 
 .btn {
   text-transform: uppercase;
   height: 57px;
-  min-width: 570px;
+  width: 570px;
   color: $white;
   padding: 20px 30px;
   border-radius: 5px;
@@ -121,12 +130,40 @@
 }
 
 @media (max-width: 414px) {
-  .form-seach {
-    display: flex;
-    flex-grow: 1;
+  .conteiner{
+   margin-right: 20px;
+   margin-left: 20px;
+  }
 
-    input {
-      width: 100%;
+  .header-logo {
+    margin-bottom: 18px;
+  }
+
+  .header-wrapper {
+  
+    .header-list {
+      flex-direction: column;
+      align-items: flex-start;
+
+      margin-bottom: 18px;
     }
   }
+
+  .header-search {
+    width: 374px;
+  }
+
+  .form-seach {
+    width: 374px;
+  }
+
+  .mr {  
+    margin-right: 0;
+  }
+
+.btn {
+      width: 374px;
+      max-width: 570px;
+    }
+  
 }
