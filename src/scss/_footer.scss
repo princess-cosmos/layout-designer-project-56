@@ -7,8 +7,8 @@
 .footer{
     display: flex;
     flex-wrap: wrap;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-top: 62px;
+    padding-bottom: 72px;
 
     
     h2 {
@@ -40,12 +40,10 @@
     display: inline-flex;
   }
 
-.footer-block:not(:last-child) {
-    margin-right: 40px;
-}
 
-.border {
-    border: 1px solid $dark-gray;
+hr.border {
+  border: 1px solid $gray;
+
 }
 
 
@@ -73,5 +71,22 @@
     li:last-child {
       margin-right: 0;
     }
+}
+
+@media (max-width: 414px) {
+  .footer-block:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .after-footer {
+    li {
+      display: flex;
+      margin-bottom: 16px;
+    }
+
+    li:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
