@@ -57,6 +57,8 @@ body {
 @media (max-width: 414px) {
   .container {
     width: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   h1 {
     font-size: 60px;
@@ -75,6 +77,47 @@ body {
   background: url(/src/images/banner.png);
   background-position: center;
   background-size: cover;
+}
+
+.bg-header-artist {
+  background: url("/src/images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.color-purple {
+  background-color: #5328A1;
+}
+
+.color-orange {
+  background-color: #95390C;
+}
+
+.w-200 {
+  width: 200px;
+  height: 62px;
+  font-size: 12.8px;
+}
+
+.w-570 {
+  width: 570px;
+  height: 57px;
+}
+
+.mb {
+  margin-bottom: 16px;
+}
+
+.mt {
+  margin-top: 48px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .header-wrapper {
@@ -147,7 +190,6 @@ body {
 
 .description {
   padding: 200px 0;
-  text-align: center;
   color: #FFFFFF;
 }
 
@@ -188,8 +230,6 @@ body {
 
 .btn {
   text-transform: uppercase;
-  height: 57px;
-  width: 570px;
   color: #FFFFFF;
   padding: 20px 30px;
   border-radius: 5px;
@@ -312,6 +352,10 @@ body {
   margin-top: 48px;
 }
 
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
 .block-1 {
   display: block;
   margin-left: 50px;
@@ -322,7 +366,6 @@ body {
 
 .block-2 {
   display: block;
-  margin-right: 50px;
 }
 .block-2 h3 {
   margin-bottom: 30px;
@@ -330,6 +373,7 @@ body {
 
 .news-item {
   display: flex;
+  flex-wrap: wrap;
   width: 1200px;
   height: 286px;
   text-align: start;
@@ -393,13 +437,13 @@ body {
 
 #page-app {
   padding: 100px 0;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .page-app {
   display: flex;
+  flex-direction: row-reverse;
   flex-wrap: wrap;
+  justify-content: left;
 }
 
 h2 {
@@ -433,6 +477,28 @@ h2 {
   height: 112px;
 }
 
+@media (max-width: 414px) {
+  .conteiner {
+    display: block;
+  }
+  #page-app {
+    height: auto;
+  }
+  .page-app {
+    justify-content: center;
+  }
+  h2 {
+    font-size: 18px;
+    margin-bottom: 48px;
+  }
+  .iphone {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .block-3 {
+    margin-top: 16px;
+  }
+}
 .bg-gradient {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
@@ -440,8 +506,8 @@ h2 {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 62px;
+  padding-bottom: 72px;
 }
 .footer h2 {
   font-size: 18px;
@@ -469,12 +535,8 @@ h2 {
   display: inline-flex;
 }
 
-.footer-block:not(:last-child) {
-  margin-right: 40px;
-}
-
-.border {
-  border: 1px solid #CACACA;
+hr.border {
+  border: 1px solid #E0E0E0;
 }
 
 .after-footer {
@@ -496,4 +558,17 @@ h2 {
 }
 .after-footer li:last-child {
   margin-right: 0;
+}
+
+@media (max-width: 414px) {
+  .footer-block:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .after-footer li {
+    display: flex;
+    margin-bottom: 16px;
+  }
+  .after-footer li:last-child {
+    margin-bottom: 0;
+  }
 }
