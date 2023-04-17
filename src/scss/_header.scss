@@ -6,6 +6,47 @@
   background-size: cover;
 }
 
+.bg-header-artist {
+  background: url("/src/images/Morten\ Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.color-purple {
+  background-color: $purple;
+}
+
+.color-orange {
+  background-color: $red
+}
+
+.w-200 {
+  width: 200px;
+  height: 62px;
+  font-size: 12.8px;
+}
+
+.w-570 {
+  width: 570px;
+  height: 57px;
+}
+
+.mb {
+  margin-bottom: 16px;
+}
+
+.mt {
+  margin-top: 48px;
+}
+
+.text-center{ 
+  text-align: center;
+}
+
+.text-left { 
+  text-align: left;
+}
+
 .header-wrapper {
   font-size: 11px;
   position: absolute;
@@ -81,7 +122,6 @@
 
  .description {
   padding: 200px 0;
-  text-align: center;
   color: $white;
  }
 
@@ -116,8 +156,6 @@
 
 .btn {
   text-transform: uppercase;
-  height: 57px;
-  width: 570px;
   color: $white;
   padding: 20px 30px;
   border-radius: 5px;
