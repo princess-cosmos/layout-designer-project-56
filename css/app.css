@@ -97,6 +97,7 @@ body {
   width: 200px;
   height: 62px;
   font-size: 12.8px;
+  margin-bottom: 24px;
 }
 
 .w-570 {
@@ -263,7 +264,7 @@ body {
   .mr {
     margin-right: 0;
   }
-  .btn {
+  .w-570 {
     width: 374px;
     max-width: 570px;
   }
@@ -571,4 +572,61 @@ hr.border {
   .after-footer li:last-child {
     margin-bottom: 0;
   }
+}
+#page-popular-track {
+  padding: 100px 0;
+}
+
+.column-2 {
+  -moz-column-count: 2;
+       column-count: 2;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  margin-top: 48px;
+}
+
+.popular-track {
+  display: flex;
+  width: 551px;
+  margin-bottom: 25px;
+}
+
+.img-track {
+  width: 55px;
+  height: 55px;
+  margin-right: 15px;
+}
+
+@media (max-width: 414px) {
+  .column-2 {
+    -moz-column-count: 1;
+         column-count: 1;
+  }
+}
+#page-discography {
+  padding: 100px 0;
+}
+
+.page-discography {
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right-50 {
+  margin-right: 50px;
+}
+
+.discography-item {
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+
+.discography-info {
+  margin-top: 18px;
+}
+.discography-info h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
 }
