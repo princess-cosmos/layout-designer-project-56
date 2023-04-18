@@ -12,17 +12,25 @@
     margin-right: 50px;
 }
 
-.discography-item {
+.discography-item, .similar-item {
     margin-right: 50px;
     margin-bottom: 25px;
 }
 
+
 .discography-info {
     margin-top: 18px;
-    
+
     h3 {
         font-size: 18px;
         line-height: 27px;
         font-weight: bold;
     }
+}
+
+@media (max-width: 414px) {
+   .discography-img {
+    width: 137px;
+    height: 137px;
+   }
 }
