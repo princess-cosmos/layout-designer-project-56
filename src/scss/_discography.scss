@@ -1,0 +1,28 @@
+#page-discography {
+    padding: 100px 0;
+}
+
+.page-discography {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right-50 {
+    margin-right: 50px;
+}
+
+.discography-item {
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
+
+.discography-info {
+    margin-top: 18px;
+    
+    h3 {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: bold;
+    }
+}
