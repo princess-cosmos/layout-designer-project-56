@@ -603,6 +603,15 @@ hr.border {
          column-count: 1;
   }
 }
+#page-similar {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.similar-info {
+  text-align: center;
+}
+
 #page-discography {
   padding: 100px 0;
 }
@@ -617,7 +626,7 @@ hr.border {
   margin-right: 50px;
 }
 
-.discography-item {
+.discography-item, .similar-item {
   margin-right: 50px;
   margin-bottom: 25px;
 }
@@ -629,4 +638,11 @@ hr.border {
   font-size: 18px;
   line-height: 27px;
   font-weight: bold;
+}
+
+@media (max-width: 414px) {
+  .discography-img {
+    width: 137px;
+    height: 137px;
+  }
 }
