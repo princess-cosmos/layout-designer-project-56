@@ -73,38 +73,6 @@ body {
     font-weight: bold;
   }
 }
-.bg-header {
-  background: url(/src/images/banner.png);
-  background-position: center;
-  background-size: cover;
-}
-
-.bg-header-artist {
-  background: url("/src/images/Morten Harket.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.color-purple {
-  background-color: #5328A1;
-}
-
-.color-orange {
-  background-color: #95390C;
-}
-
-.w-200 {
-  width: 200px;
-  height: 62px;
-  font-size: 12.8px;
-  margin-bottom: 24px;
-}
-
-.w-570 {
-  width: 570px;
-  height: 57px;
-}
-
 .mb {
   margin-bottom: 16px;
 }
@@ -119,6 +87,48 @@ body {
 
 .text-left {
   text-align: left;
+}
+
+.mr {
+  margin-right: 24px;
+}
+
+.color-green {
+  background-color: #34C176;
+}
+
+.mr-top {
+  margin-top: 31px;
+}
+
+.text-gray {
+  color: #E0E0E0;
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.mr-right {
+  margin-right: 16px;
+}
+
+.mr-bottom {
+  margin-bottom: 65px;
+}
+
+.bottom-25 {
+  margin-bottom: 25px;
+}
+
+.text-transform {
+  text-transform: uppercase;
+}
+
+.bg-header {
+  background: url(/src/images/banner.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .header-wrapper {
@@ -194,10 +204,6 @@ body {
   color: #FFFFFF;
 }
 
-.mr-top {
-  margin-top: 31px;
-}
-
 .fieldset-form {
   border: 0;
   margin-top: 17px;
@@ -225,10 +231,6 @@ body {
   font-size: 14px;
 }
 
-.mr {
-  margin-right: 24px;
-}
-
 .btn {
   text-transform: uppercase;
   color: #FFFFFF;
@@ -236,10 +238,6 @@ body {
   border-radius: 5px;
   border: 0;
   cursor: pointer;
-}
-
-.color-green {
-  background-color: #34C176;
 }
 
 @media (max-width: 414px) {
@@ -374,7 +372,6 @@ body {
 
 .news-item {
   display: flex;
-  flex-wrap: wrap;
   width: 1200px;
   height: 286px;
   text-align: start;
@@ -406,10 +403,6 @@ body {
   display: inline;
 }
 
-.text-transform {
-  text-transform: uppercase;
-}
-
 .to-albome {
   padding: 17px 31px;
   width: 135px;
@@ -420,14 +413,6 @@ body {
   text-decoration: none;
 }
 
-.mr-right {
-  margin-right: 16px;
-}
-
-.mr-bottom {
-  margin-bottom: 65px;
-}
-
 .news-author::before {
   content: url("/src/images/avatar.png");
   width: 19px;
@@ -436,6 +421,39 @@ body {
   margin-right: 16px;
 }
 
+@media (max-width: 414px) {
+  .row-reverse {
+    flex-direction: row;
+  }
+  .news-item {
+    flex-wrap: wrap;
+  }
+  .news-item img {
+    width: 373px;
+    height: 186px;
+  }
+  .news-item h3 {
+    font-size: 16px;
+  }
+  .block-1 {
+    margin-left: 0;
+  }
+  .block-1 h3 {
+    margin-top: 50px;
+    margin-bottom: 16px;
+  }
+  .block-1 p {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .block-2 h3 {
+    margin-top: 50px;
+    margin-bottom: 16px;
+  }
+  .block-2 p {
+    flex-wrap: wrap;
+  }
+}
 #page-app {
   padding: 100px 0;
 }
@@ -538,6 +556,7 @@ h2 {
 
 hr.border {
   border: 1px solid #E0E0E0;
+  min-width: 1200px;
 }
 
 .after-footer {
@@ -573,22 +592,82 @@ hr.border {
     margin-bottom: 0;
   }
 }
+.bg-header-artist {
+  background: url("/src/images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.color-purple {
+  background-color: #5328A1;
+}
+
+.color-purple::before {
+  margin-right: 24px;
+  display: block;
+  content: url(/src/images/play-button.svg);
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+}
+
+.mt > button {
+  display: inline-flex;
+  align-items: center;
+}
+
+.color-orange {
+  background-color: #95390C;
+}
+
+.mt .color-orange::before {
+  margin-right: 24px;
+  display: block;
+  content: url(/src/images/heart.svg);
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+}
+
+.w-200 {
+  width: 200px;
+  height: 62px;
+  font-size: 12.8px;
+  margin-bottom: 24px;
+}
+
+.w-570 {
+  width: 570px;
+  height: 57px;
+}
+
 #page-popular-track {
-  padding: 100px 0;
+  padding-top: 100px;
 }
 
 .column-2 {
   -moz-column-count: 2;
        column-count: 2;
-  -moz-column-gap: 50px;
-       column-gap: 50px;
   margin-top: 48px;
 }
 
 .popular-track {
   display: flex;
+  align-items: center;
   width: 551px;
-  margin-bottom: 25px;
+  font-size: 12.8px;
+}
+
+.track-info {
+  justify-self: start;
+}
+.track-info h3 {
+  font-size: 12.8px;
+  font-weight: bold;
+}
+
+.content-end {
+  justify-content: end;
 }
 
 .img-track {
@@ -640,7 +719,17 @@ hr.border {
   font-weight: bold;
 }
 
+.similar-item h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+}
+
 @media (max-width: 414px) {
+  .discography-item, .similar-item {
+    width: 137px;
+    height: auto;
+  }
   .discography-img {
     width: 137px;
     height: 137px;
