@@ -78,3 +78,54 @@ body {
  }
 }
 
+.mb {
+  margin-bottom: 16px;
+}
+
+.mt {
+  margin-top: 48px;
+}
+
+.text-center{ 
+  text-align: center;
+}
+
+.text-left { 
+  text-align: left;
+}
+
+.mr {  
+  margin-right: 24px;
+}
+
+.color-green {
+  background-color: $green;
+}
+
+.mr-top {
+  margin-top: 31px;
+ }
+
+ .text-gray {
+  color: $gray;
+ }
+
+ .text-white {
+  color: $white
+ }
+
+ .mr-right {
+  margin-right: 16px;
+}
+
+.mr-bottom {
+margin-bottom: 65px;
+}
+
+.bottom-25 {
+  margin-bottom: 25px;
+}
+
+.text-transform {
+  text-transform: uppercase;
+}
