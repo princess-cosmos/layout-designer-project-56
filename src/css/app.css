@@ -692,7 +692,7 @@ hr.border {
 }
 
 #page-discography {
-  padding: 100px 0;
+  padding-top: 100px;
 }
 
 .page-discography {
@@ -708,6 +708,11 @@ hr.border {
 .discography-item, .similar-item {
   margin-right: 50px;
   margin-bottom: 25px;
+}
+
+.discography-item:nth-child(5),
+.discography-item:nth-child(6) {
+  margin-bottom: 0;
 }
 
 .discography-info {
