@@ -6,48 +6,6 @@
   background-size: cover;
 }
 
-.bg-header-artist {
-  background: url("/src/images/Morten\ Harket.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.color-purple {
-  background-color: $purple;
-}
-
-.color-orange {
-  background-color: $red
-}
-
-.w-200 {
-  width: 200px;
-  height: 62px;
-  font-size: 12.8px;
-  margin-bottom: 24px;
-}
-
-.w-570 {
-  width: 570px;
-  height: 57px;
-}
-
-.mb {
-  margin-bottom: 16px;
-}
-
-.mt {
-  margin-top: 48px;
-}
-
-.text-center{ 
-  text-align: center;
-}
-
-.text-left { 
-  text-align: left;
-}
-
 .header-wrapper {
   font-size: 11px;
   position: absolute;
@@ -126,10 +84,6 @@
   color: $white;
  }
 
- .mr-top {
-  margin-top: 31px;
- }
-
  .fieldset-form {
   border: 0;
   margin-top: 17px;
@@ -151,10 +105,6 @@
   font-size: 14px;
  }
 
-.mr {  
-  margin-right: 24px;
-}
-
 .btn {
   text-transform: uppercase;
   color: $white;
@@ -163,10 +113,6 @@
   border: 0;
   cursor: pointer;
  }
-
-.color-green {
-  background-color: $green;
-}
 
 @media (max-width: 414px) {
   .conteiner{
