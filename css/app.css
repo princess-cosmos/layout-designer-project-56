@@ -25,28 +25,19 @@ body {
 .conteiner {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 @media (min-width: 1240px) {
   .container {
     max-width: 1200px;
   }
-}
-@media (min-width: 1240px) and (max-width: 1279px) {
-  .container {
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-}
-@media (min-width: 1240px) {
   h1 {
     font-size: 60px;
     line-height: 90px;
     text-transform: uppercase;
     font-weight: bold;
   }
-}
-@media (min-width: 1240px) {
   h2 {
     font-size: 38px;
     line-height: 57px;
@@ -57,18 +48,16 @@ body {
 @media (max-width: 414px) {
   .container {
     width: 100%;
-    margin-right: 20px;
-    margin-left: 20px;
   }
   h1 {
-    font-size: 60px;
-    line-height: 90px;
+    font-size: 30px;
+    line-height: 45px;
     text-transform: uppercase;
     font-weight: bold;
   }
   h2 {
-    font-size: 38px;
-    line-height: 57px;
+    font-size: 18px;
+    line-height: 27px;
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -200,7 +189,7 @@ body {
 }
 
 .description {
-  padding: 200px 0;
+  padding: 200px 20px;
   color: #FFFFFF;
 }
 
@@ -241,10 +230,6 @@ body {
 }
 
 @media (max-width: 414px) {
-  .conteiner {
-    margin-right: 20px;
-    margin-left: 20px;
-  }
   .header-logo {
     margin-bottom: 18px;
   }
@@ -262,9 +247,15 @@ body {
   .mr {
     margin-right: 0;
   }
-  .w-570 {
+  .description .w-570 {
     width: 374px;
     max-width: 570px;
+  }
+  .description h2 {
+    margin-bottom: 0;
+  }
+  .description .mr-top {
+    margin-top: 16px;
   }
 }
 .page-pricing {
@@ -455,7 +446,8 @@ body {
   }
 }
 #page-app {
-  padding: 100px 0;
+  padding-top: 100px;
+  margin-bottom: 100px;
 }
 
 .page-app {

@@ -80,7 +80,7 @@
  }
 
  .description {
-  padding: 200px 0;
+  padding: 200px 20px;
   color: $white;
  }
 
@@ -115,10 +115,6 @@
  }
 
 @media (max-width: 414px) {
-  .conteiner{
-   margin-right: 20px;
-   margin-left: 20px;
-  }
 
   .header-logo {
     margin-bottom: 18px;
@@ -146,9 +142,20 @@
     margin-right: 0;
   }
 
-.w-570 {
-      width: 374px;
-      max-width: 570px;
-    }
+
+.description {
+  .w-570 {
+    width: 374px;
+    max-width: 570px;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  .mr-top {
+    margin-top: 16px;
+  }
+  }
 
 }
