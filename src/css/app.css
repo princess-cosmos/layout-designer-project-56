@@ -54,6 +54,7 @@ body {
     line-height: 45px;
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: 78px;
   }
   h2 {
     font-size: 18px;
@@ -115,7 +116,7 @@ body {
 }
 
 .bg-header {
-  background: url(../images/banner.png);
+  background: url(/src/images/banner.png);
   background-position: center;
   background-size: cover;
 }
@@ -269,28 +270,31 @@ body {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 43px;
 }
 
 .bg-one {
-  background-image: url(../images/subscribe_1.png);
+  background-image: url(/src/images/subscribe_1.png);
   background-size: cover;
 }
 
 .bg-two {
-  background-image: url(../images/subscribe_2.png);
+  background-image: url(/src/images/subscribe_2.png);
   background-size: cover;
 }
 
 .bg-three {
-  background-image: url(../images/subscribe_3.png);
+  background-image: url(/src/images/subscribe_3.png);
   background-size: cover;
 }
 
 @media (max-width: 414px) {
   .pricing-item:not(:last-child) {
-    margin-bottom: 50px;
+    margin-bottom: 27px;
+  }
+  .pricing {
+    margin-bottom: 19px;
   }
 }
 .pricing-item {
@@ -331,6 +335,11 @@ body {
   font-size: 24px;
 }
 
+@media (max-width: 414px) {
+  .text-transform-white {
+    font-size: 16px;
+  }
+}
 .pricing-footer {
   margin: 64px 0;
   width: 318px;
