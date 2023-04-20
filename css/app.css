@@ -54,7 +54,7 @@ body {
     line-height: 45px;
     text-transform: uppercase;
     font-weight: bold;
-    margin-top: 78px;
+    margin-top: 58px;
   }
   h2 {
     font-size: 18px;
@@ -116,7 +116,7 @@ body {
 }
 
 .bg-header {
-  background: url(/src/images/banner.png);
+  background: url(../images/banner.png);
   background-position: center;
   background-size: cover;
 }
@@ -275,17 +275,17 @@ body {
 }
 
 .bg-one {
-  background-image: url(/src/images/subscribe_1.png);
+  background-image: url(../images/subscribe_1.png);
   background-size: cover;
 }
 
 .bg-two {
-  background-image: url(/src/images/subscribe_2.png);
+  background-image: url(../images/subscribe_2.png);
   background-size: cover;
 }
 
 .bg-three {
-  background-image: url(/src/images/subscribe_3.png);
+  background-image: url(../images/subscribe_3.png);
   background-size: cover;
 }
 
