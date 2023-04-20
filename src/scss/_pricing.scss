@@ -5,10 +5,13 @@
     text-align: center;
     overflow: hidden;
     color: $white;
+
+    h2 {
+        margin-bottom: 48px;
+    }
 }
 
 .pricing {
-    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -42,7 +45,6 @@
 
 .pricing-item {
     padding: 24px 1.5rem 0 1.5rem;
-    height: 615px;
     width: 368px;
     border-radius: 1rem;
 
