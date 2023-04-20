@@ -32,21 +32,6 @@
     background-size: cover;
 }
 
-@media (max-width: 414px) {
-
-    .pricing-item {
-        padding: 16px 22px 0 22px;
-    }
-
-    .pricing-item:not(:last-child) {
-        margin-bottom: 50px;
-    }
-
-    .pricing {
-        margin-bottom: 19px;
-    }
-}
-
 .pricing-item {
     padding: 24px 24px 0 24px;
     width: 368px;
@@ -91,6 +76,18 @@
     .text-transform-white {
         font-size: 16px;
     }
+
+    .pricing-item {
+        padding: 16px 22px 0 22px;
+    }
+
+    .pricing-item:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    .pricing {
+        margin-bottom: 19px;
+    }
 }
 
 .pricing-footer {
@@ -99,4 +96,5 @@
     height: 57px;
     font-size: 12.8px;
 }
+
 

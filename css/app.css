@@ -54,7 +54,7 @@ body {
     line-height: 45px;
     text-transform: uppercase;
     font-weight: bold;
-    margin-top: 55px;
+    margin-top: 53px;
   }
   h2 {
     font-size: 18px;
@@ -261,6 +261,7 @@ body {
   }
   .description .mr-top {
     margin-top: 16px;
+    margin-bottom: 16px;
   }
 }
 .page-pricing {
@@ -294,17 +295,6 @@ body {
   background-size: cover;
 }
 
-@media (max-width: 414px) {
-  .pricing-item {
-    padding: 16px 22px 0 22px;
-  }
-  .pricing-item:not(:last-child) {
-    margin-bottom: 50px;
-  }
-  .pricing {
-    margin-bottom: 19px;
-  }
-}
 .pricing-item {
   padding: 24px 24px 0 24px;
   width: 368px;
@@ -346,6 +336,15 @@ body {
   .text-transform-white {
     font-size: 16px;
   }
+  .pricing-item {
+    padding: 16px 22px 0 22px;
+  }
+  .pricing-item:not(:last-child) {
+    margin-bottom: 50px;
+  }
+  .pricing {
+    margin-bottom: 19px;
+  }
 }
 .pricing-footer {
   margin: 64px 0;
@@ -380,12 +379,10 @@ body {
 .news-item {
   display: flex;
   width: 1200px;
-  height: 286px;
   text-align: start;
 }
 .news-item img {
   width: 575px;
-  height: 286px;
 }
 .news-item h3 {
   font-size: 30px;
@@ -501,15 +498,11 @@ h2 {
 .block-3 {
   margin-top: 64px;
   width: 600px;
-  height: 112px;
 }
 
 @media (max-width: 414px) {
   .conteiner {
     display: block;
-  }
-  #page-app {
-    height: auto;
   }
   .page-app {
     justify-content: center;
