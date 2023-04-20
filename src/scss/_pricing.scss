@@ -11,7 +11,7 @@
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 43px;
 }
 
@@ -32,7 +32,11 @@
 
 @media (max-width: 414px) {
     .pricing-item:not(:last-child) {
-        margin-bottom: 50px;
+        margin-bottom: 27px;
+    }
+
+    .pricing {
+        margin-bottom: 19px;
     }
 }
 
@@ -75,6 +79,12 @@
     text-transform: uppercase;
     font-weight: 400;
     font-size: 24px;
+}
+
+@media (max-width: 414px) {
+    .text-transform-white {
+        font-size: 16px;
+    }
 }
 
 .pricing-footer {
