@@ -54,7 +54,7 @@ body {
     line-height: 45px;
     text-transform: uppercase;
     font-weight: bold;
-    margin-top: 58px;
+    margin-top: 55px;
   }
   h2 {
     font-size: 18px;
@@ -113,6 +113,10 @@ body {
 
 .text-transform {
   text-transform: uppercase;
+}
+
+.right-50 {
+  margin-right: 47px;
 }
 
 .bg-header {
@@ -272,7 +276,6 @@ body {
 .pricing {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin-bottom: 43px;
 }
 
@@ -292,15 +295,18 @@ body {
 }
 
 @media (max-width: 414px) {
+  .pricing-item {
+    padding: 16px 22px 0 22px;
+  }
   .pricing-item:not(:last-child) {
-    margin-bottom: 27px;
+    margin-bottom: 50px;
   }
   .pricing {
     margin-bottom: 19px;
   }
 }
 .pricing-item {
-  padding: 24px 1.5rem 0 1.5rem;
+  padding: 24px 24px 0 24px;
   width: 368px;
   border-radius: 1rem;
 }

@@ -14,7 +14,6 @@
 .pricing {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     margin-bottom: 43px;
 }
 
@@ -34,8 +33,13 @@
 }
 
 @media (max-width: 414px) {
+
+    .pricing-item {
+        padding: 16px 22px 0 22px;
+    }
+
     .pricing-item:not(:last-child) {
-        margin-bottom: 27px;
+        margin-bottom: 50px;
     }
 
     .pricing {
@@ -44,7 +48,7 @@
 }
 
 .pricing-item {
-    padding: 24px 1.5rem 0 1.5rem;
+    padding: 24px 24px 0 24px;
     width: 368px;
     border-radius: 1rem;
 
