@@ -75,7 +75,7 @@
 }
 
 .news-author::before {
-  content: url("/src/images/avatar.png");
+  content: url("../images/avatar.png");
   width: 19px;
   height: 19px;
   display: inline-block;
@@ -102,6 +102,7 @@
 
 .block-1 {
     margin-left: 0;
+
     h3 {
         margin-top: 50px;
         margin-bottom: 16px;
@@ -120,8 +121,5 @@
         margin-bottom: 16px;
     }
 
-    p {
-        flex-wrap: wrap;
-    }
 }
 }

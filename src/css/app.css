@@ -236,7 +236,7 @@ body {
 
 @media (max-width: 414px) {
   .header-logo {
-    margin-bottom: 18px;
+    margin-bottom: 17px;
   }
   .header-wrapper .header-list {
     flex-direction: column;
@@ -418,7 +418,7 @@ body {
 }
 
 .news-author::before {
-  content: url("/src/images/avatar.png");
+  content: url("../images/avatar.png");
   width: 19px;
   height: 19px;
   display: inline-block;
@@ -453,9 +453,6 @@ body {
   .block-2 h3 {
     margin-top: 50px;
     margin-bottom: 16px;
-  }
-  .block-2 p {
-    flex-wrap: wrap;
   }
 }
 #page-app {
