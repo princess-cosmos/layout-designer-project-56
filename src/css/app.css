@@ -54,6 +54,7 @@ body {
     line-height: 45px;
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: 48px;
   }
   h2 {
     font-size: 18px;
@@ -68,6 +69,10 @@ body {
 
 .mt {
   margin-top: 48px;
+}
+
+.mleft {
+  margin-left: auto;
 }
 
 .top-25 {
