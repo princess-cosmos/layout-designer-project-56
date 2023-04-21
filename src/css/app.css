@@ -264,6 +264,11 @@ body {
     margin-bottom: 16px;
   }
 }
+.conteiner-page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .page-pricing {
   padding-top: 100px;
   text-align: center;
@@ -281,17 +286,17 @@ body {
 }
 
 .bg-one {
-  background-image: url(../images/subscribe_1.png);
+  background-image: url(/src/images/subscribe_1.png);
   background-size: cover;
 }
 
 .bg-two {
-  background-image: url(../images/subscribe_2.png);
+  background-image: url(/src/images/subscribe_2.png);
   background-size: cover;
 }
 
 .bg-three {
-  background-image: url(../images/subscribe_3.png);
+  background-image: url(/src/images/subscribe_3.png);
   background-size: cover;
 }
 
@@ -315,6 +320,7 @@ body {
 
 .pricing-value {
   margin-top: 200px;
+  height: 64px;
   line-height: 1em;
   margin-bottom: 40px;
   font-size: 64px;
@@ -333,17 +339,23 @@ body {
 }
 
 @media (max-width: 414px) {
+  .conteiner-page {
+    padding: 0 20px;
+  }
   .text-transform-white {
     font-size: 16px;
   }
   .pricing-item {
     padding: 16px 22px 0 22px;
   }
-  .pricing-item:not(:last-child) {
+  .pricing-item {
     margin-bottom: 50px;
   }
   .pricing {
     margin-bottom: 19px;
+  }
+  .right-50 {
+    margin-right: 0;
   }
 }
 .pricing-footer {
@@ -697,10 +709,6 @@ hr.border {
   margin-top: 48px;
   display: flex;
   flex-wrap: wrap;
-}
-
-.right-50 {
-  margin-right: 50px;
 }
 
 .discography-item, .similar-item {
