@@ -414,7 +414,7 @@ body {
 }
 .news-footer .news-author p {
   font-size: 12px;
-  margin-bottom: 65px;
+  margin-bottom: 62px;
   display: inline;
 }
 .news-footer .text-orange {
@@ -479,6 +479,9 @@ body {
   .block-2 h3 {
     margin-top: 50px;
     margin-bottom: 16px;
+  }
+  .mr-bottom {
+    margin-bottom: 78px;
   }
 }
 #page-app {
