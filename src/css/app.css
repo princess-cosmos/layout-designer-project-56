@@ -29,7 +29,7 @@ body {
 }
 
 @media (min-width: 1240px) {
-  .container {
+  .conteiner {
     max-width: 1200px;
   }
   h1 {
@@ -681,9 +681,11 @@ hr.border {
 }
 
 .column-2 {
-  -moz-column-count: 2;
-       column-count: 2;
   margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
 }
 
 .popular-track {
@@ -712,9 +714,8 @@ hr.border {
 }
 
 @media (max-width: 414px) {
-  .column-2 {
-    -moz-column-count: 1;
-         column-count: 1;
+  .popular-track {
+    width: 374px;
   }
 }
 #page-similar {

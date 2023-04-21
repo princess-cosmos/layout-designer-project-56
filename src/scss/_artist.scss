@@ -56,8 +56,10 @@
 }
 
 .column-2 {
-    column-count: 2;
     margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
 }
 
 .popular-track {
@@ -89,9 +91,10 @@
 }
 
 @media (max-width: 414px) {
-    .column-2 {
-        column-count: 1;
-}
+
+.popular-track {
+    width: 374px;
+ }
 }
 
 #page-similar {
