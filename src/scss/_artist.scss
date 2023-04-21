@@ -1,7 +1,7 @@
 @import "./variables";
 
 .bg-header-artist {
-    background: url("/src/images/Morten\ Harket.png");
+    background: url("../images/Morten\ Harket.png");
     background-position: center;
     background-size: cover;
   }
@@ -13,7 +13,7 @@
 .color-purple::before {
     margin-right: 24px;
     display: block;
-    content: url(/src/images/play-button.svg);
+    content: url(../images/play-button.svg);
     width: 20px;
     height: 20px;
     filter: invert(1);
@@ -32,7 +32,7 @@
 .color-orange::before {
     margin-right: 24px;
     display: block;
-    content: url(/src/images/heart.svg);
+    content: url(../images/heart.svg);
     width: 20px;
     height: 20px;
     filter: invert(1);
@@ -123,8 +123,14 @@
     margin-bottom: 0;
 }
 
+.discography-item:nth-child(4),
+.similar-item:nth-child(4),
+.similar-item:nth-child(8) {
+    margin-right: 0;
+}
+
 .discography-info {
-    margin-top: 18px;
+    margin-top: 15px;
 
     h3 {
         font-size: 18px;

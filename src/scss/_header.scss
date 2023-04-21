@@ -70,13 +70,9 @@
     width: 248px;
     height: 25px;
     border: 0;
-
-    &::placeholder {
-      font-size: 13.3px;
-      text-transform: uppercase;
-      color: #757575;
-      padding-left: 10px;
-    }
+    padding: 5px 10px;
+    font-size: 13.3px;
+    color: #757575;
  }
 
  .description {
