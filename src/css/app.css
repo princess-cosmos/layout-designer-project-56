@@ -54,7 +54,7 @@ body {
     line-height: 45px;
     text-transform: uppercase;
     font-weight: bold;
-    margin-top: 53px;
+    margin-top: 50px;
   }
   h2 {
     font-size: 18px;
@@ -236,7 +236,7 @@ body {
 
 @media (max-width: 414px) {
   .header-logo {
-    margin-bottom: 17px;
+    margin-bottom: 16px;
   }
   .header-wrapper .header-list {
     flex-direction: column;
@@ -326,8 +326,7 @@ body {
   font-size: 64px;
 }
 .pricing-value .value {
-  position: relative;
-  top: -20px;
+  vertical-align: super;
   margin-left: 16px;
   font-size: 32px;
 }
@@ -345,12 +344,16 @@ body {
   .text-transform-white {
     font-size: 16px;
   }
+  .pricing {
+    margin-bottom: 0;
+  }
   .pricing-item {
     padding: 16px 22px 0 22px;
     margin-bottom: 50px;
   }
-  .pricing {
-    margin-bottom: 19px;
+  .pricing-value {
+    display: flex;
+    justify-content: center;
   }
   .right-50 {
     margin-right: 0;
@@ -372,7 +375,8 @@ body {
 }
 
 .block-1 {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   margin-left: 50px;
 }
 .block-1 h3 {
@@ -380,7 +384,8 @@ body {
 }
 
 .block-2 {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
 }
 .block-2 h3 {
   margin-bottom: 30px;
@@ -406,18 +411,17 @@ body {
 .news-footer {
   margin-top: 24px;
 }
-.news-footer .news-author {
+.news-footer .news-author p {
   font-size: 12px;
   margin-bottom: 65px;
+  display: inline;
 }
 .news-footer .text-orange {
   color: #F89202;
 }
-.news-footer p {
-  display: inline;
-}
 
 .to-albome {
+  margin-top: 48px;
   padding: 17px 31px;
   width: 135px;
   height: 53px;
