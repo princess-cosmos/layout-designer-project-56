@@ -447,6 +447,7 @@ body {
   }
   .news-item {
     flex-wrap: wrap;
+    flex-direction: column;
   }
   .news-item img {
     width: 373px;
@@ -454,6 +455,9 @@ body {
   }
   .news-item h3 {
     font-size: 16px;
+  }
+  .news-body {
+    max-width: 375px;
   }
   .block-1 {
     margin-left: 0;
@@ -465,6 +469,12 @@ body {
   .block-1 p {
     display: flex;
     flex-wrap: wrap;
+  }
+  .block-2 {
+    margin-right: 0;
+  }
+  .block-2 .bottom-24 {
+    max-width: 375px;
   }
   .block-2 h3 {
     margin-top: 50px;
@@ -741,6 +751,7 @@ hr.border {
 }
 
 .similar-item h3 {
+  margin-top: 12px;
   font-size: 18px;
   line-height: 27px;
   font-weight: bold;

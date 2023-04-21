@@ -95,8 +95,9 @@
     }
 
     .news-item {
-        flex-wrap: wrap;
-    
+      flex-wrap: wrap;
+      flex-direction: column;
+
         img {
             width: 373px;
             height: 186px;
@@ -105,6 +106,11 @@
         h3 {
             font-size: 16px;
         }
+
+}
+
+.news-body {
+    max-width: 375px;
 }
 
 .block-1 {
@@ -121,12 +127,16 @@
     }
 }
 
-.block-2 {
+.block-2 { 
+    margin-right: 0;
+    
+    .bottom-24 {
+        max-width: 375px;
+    }
 
     h3 {
         margin-top: 50px;
         margin-bottom: 16px;
     }
-
 }
 }
