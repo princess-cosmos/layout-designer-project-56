@@ -1,7 +1,6 @@
 @import "./variables";
 
 .page-pricing {
-
     padding: 100px 20px 0 20px;
     text-align: center;
     overflow: hidden;
@@ -22,16 +21,19 @@
 .bg-one {
     background-image: url(../images/subscribe_1.png);
     background-size: cover;
+    background-position: top;
 }
 
 .bg-two {
     background-image: url(../images/subscribe_2.png);
     background-size: cover;
+    background-position: top;
 }
 
 .bg-three {
     background-image: url(../images/subscribe_3.png);
     background-size: cover;
+    background-position: top;
 }
 
 .pricing-item {

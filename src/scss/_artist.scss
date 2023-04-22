@@ -1,10 +1,8 @@
 @import "./variables";
 
-.bg-header-artist {
-    background: url("../images/Morten\ Harket.png");
-    background-position: center;
-    background-size: cover;
-  }
+.header-wrapper-artist {
+  max-width: 1200px;
+}
 
 .color-purple {
     background-color: $purple;
@@ -158,14 +156,13 @@
 
 
 @media (max-width: 414px) {
-
-  .discography-item, .similar-item {
-    width: 137px;
-    height: auto;
-
-    }
-   .discography-img {
-    width: 137px;
-    height: 137px;
-   }
+    .discography-item, .similar-item {
+        width: 137px;
+        height: auto;
+    
+        }
+       .discography-img {
+        width: 137px;
+        height: 137px;
+       }
 }

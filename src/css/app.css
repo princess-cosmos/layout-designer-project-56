@@ -87,6 +87,10 @@ body {
   text-align: left;
 }
 
+.left-mobile {
+  width: calc(100% - 40px);
+}
+
 .mr {
   margin-right: 24px;
 }
@@ -133,6 +137,12 @@ body {
 
 .bg-header {
   background: url(../images/banner.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-header-artist {
+  background: url("/src/images/Morten Harket.png");
   background-position: center;
   background-size: cover;
 }
@@ -287,16 +297,19 @@ body {
 .bg-one {
   background-image: url(../images/subscribe_1.png);
   background-size: cover;
+  background-position: top;
 }
 
 .bg-two {
   background-image: url(../images/subscribe_2.png);
   background-size: cover;
+  background-position: top;
 }
 
 .bg-three {
   background-image: url(../images/subscribe_3.png);
   background-size: cover;
+  background-position: top;
 }
 
 .pricing-item {
@@ -617,10 +630,8 @@ hr.border {
     margin-bottom: 0;
   }
 }
-.bg-header-artist {
-  background: url("../images/Morten Harket.png");
-  background-position: center;
-  background-size: cover;
+.header-wrapper-artist {
+  max-width: 1200px;
 }
 
 .color-purple {

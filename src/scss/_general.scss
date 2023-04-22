@@ -99,6 +99,10 @@ body {
   text-align: left;
 }
 
+.left-mobile {
+width: calc(100% - 40px);
+}
+
 .mr {  
   margin-right: 24px;
 }
