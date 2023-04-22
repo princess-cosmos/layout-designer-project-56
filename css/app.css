@@ -87,10 +87,6 @@ body {
   text-align: left;
 }
 
-.left-mobile {
-  width: calc(100% - 40px);
-}
-
 .mr {
   margin-right: 24px;
 }
@@ -630,10 +626,6 @@ hr.border {
     margin-bottom: 0;
   }
 }
-.header-wrapper-artist {
-  max-width: 1200px;
-}
-
 .color-purple {
   background-color: #5328A1;
 }

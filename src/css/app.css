@@ -24,7 +24,7 @@ body {
 
 .conteiner {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
   padding: 0 20px;
 }
 
@@ -630,10 +630,6 @@ hr.border {
     margin-bottom: 0;
   }
 }
-.header-wrapper-artist {
-  max-width: 1200px;
-}
-
 .color-purple {
   background-color: #5328A1;
 }
