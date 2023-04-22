@@ -21,19 +21,19 @@
 .bg-one {
     background-image: url(../images/subscribe_1.png);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .bg-two {
     background-image: url(../images/subscribe_2.png);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .bg-three {
     background-image: url(../images/subscribe_3.png);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .pricing-item {
@@ -77,6 +77,11 @@
 
 
 @media (max-width: 414px) {
+    .pricing-item {
+    width: 374px;
+    max-width: 374px;
+
+    }
 
     .text-transform-white {
         font-size: 16px;
@@ -84,11 +89,10 @@
 
     .pricing {
         margin-bottom: 40px;
-    }
 
-    .pricing-item {
-        padding: 16px 24px 0 24px;
-        max-width: 100%;
+        .pricing-item {
+            padding: 16px 24px 0 24px;
+        }
     }
 
     .pricing-value {
