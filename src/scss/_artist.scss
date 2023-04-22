@@ -90,6 +90,13 @@
 }
 
 @media (max-width: 414px) {
+    .main-artist {
+        padding-bottom: 200px;
+    }
+
+.mb {
+    margin-top: 0;
+    }
 .popular-track {
     width: 374px;
  }
@@ -165,4 +172,6 @@
         width: 137px;
         height: 137px;
        }
+
+
 }
