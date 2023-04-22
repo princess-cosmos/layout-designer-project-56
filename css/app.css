@@ -626,6 +626,11 @@ hr.border {
     margin-bottom: 0;
   }
 }
+.main-artist {
+  padding: 225px 0;
+  color: #FFFFFF;
+}
+
 .color-purple {
   background-color: #5328A1;
 }
@@ -707,6 +712,9 @@ hr.border {
 }
 
 @media (max-width: 414px) {
+  .mb {
+    margin-top: 25px;
+  }
   .popular-track {
     width: 374px;
   }

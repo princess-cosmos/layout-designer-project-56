@@ -1,5 +1,10 @@
 @import "./variables";
 
+.main-artist {
+    padding: 225px 0;
+    color: $white;
+}
+
 .color-purple {
     background-color: $purple;
   }
@@ -85,6 +90,9 @@
 }
 
 @media (max-width: 414px) {
+    .mb {
+     margin-top: 25px;
+    }
 
 .popular-track {
     width: 374px;
