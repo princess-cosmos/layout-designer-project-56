@@ -19,6 +19,7 @@
 .pricing {
     display: flex;
     flex-wrap: wrap;
+    gap: 50px;
     margin-bottom: 43px;
 }
 
@@ -38,8 +39,8 @@
 }
 
 .pricing-item {
+    max-width: 366.66px;
     padding: 24px 24px 0 24px;
-    width: 368px;
     border-radius: 1rem;
 
     .form-pricing {
@@ -76,6 +77,7 @@
     font-size: 24px;
 }
 
+
 @media (max-width: 414px) {
     .conteiner-page {
         padding: 100px 20px 0 20px;
@@ -102,12 +104,13 @@
     .pricing-value {
         display: flex;
         justify-content: center;
-    }
 
-    .right-50 {
-        margin-right: 0;
+        .value {
+            position: relative;
+            top: -10px;
+            }
+        }
     }
-}
 
 .pricing-footer {
     margin: 64px 0;
