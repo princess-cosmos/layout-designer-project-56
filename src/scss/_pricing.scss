@@ -1,7 +1,7 @@
 @import "./variables";
 
 .page-pricing {
-    padding: 100px 20px 0 20px;
+    padding-top: 100px;
     text-align: center;
     overflow: hidden;
     color: $white;
@@ -15,25 +15,25 @@
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    margin-bottom: 43px;
+    margin-bottom: 40px;
 }
 
 .bg-one {
     background-image: url(../images/subscribe_1.png);
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
 
 .bg-two {
     background-image: url(../images/subscribe_2.png);
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
 
 .bg-three {
     background-image: url(../images/subscribe_3.png);
     background-size: cover;
-    background-position: top;
+    background-position: center;
 }
 
 .pricing-item {
