@@ -1,12 +1,8 @@
 @import "./variables";
 
-.conteiner-page {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .page-pricing {
-    padding-top: 100px;
+
+    padding: 100px 20px 0 20px;
     text-align: center;
     overflow: hidden;
     color: $white;
@@ -79,7 +75,7 @@
 
 
 @media (max-width: 414px) {
-    .conteiner-page {
+    .conteiner {
         padding: 100px 20px 0 20px;
     }
 
@@ -88,12 +84,11 @@
     }
 
     .pricing {
-        margin-bottom: 0;
+        margin-bottom: 40px;
     }
 
     .pricing-item {
         padding: 16px 24px 0 24px;
-        margin-bottom: 50px;
         max-width: 100%;
     }
 
