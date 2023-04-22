@@ -337,9 +337,6 @@ body {
 }
 
 @media (max-width: 414px) {
-  .conteiner {
-    padding: 100px 20px 0 20px;
-  }
   .text-transform-white {
     font-size: 16px;
   }
