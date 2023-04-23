@@ -285,6 +285,7 @@ h2 {
   flex-wrap: wrap;
   gap: 50px;
   margin-bottom: 40px;
+  width: 1200px;
 }
 
 .bg-one {
@@ -351,6 +352,7 @@ h2 {
     font-size: 16px;
   }
   .pricing {
+    width: auto;
     margin-bottom: 40px;
   }
   .pricing .pricing-item {

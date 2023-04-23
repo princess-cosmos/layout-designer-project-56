@@ -16,6 +16,7 @@
     flex-wrap: wrap;
     gap: 50px;
     margin-bottom: 40px;
+    width: 1200px;
 }
 
 .bg-one {
@@ -88,6 +89,7 @@
     }
 
     .pricing {
+        width: auto;
         margin-bottom: 40px;
 
         .pricing-item {
