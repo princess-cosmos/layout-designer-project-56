@@ -1,12 +1,12 @@
 @font-face {
   font-weight: 400;
   font-family: Roboto;
-  src: url(../fonts/Roboto-Regular.ttf);
+  src: url("../fonts/Roboto-Regular.ttf");
 }
 @font-face {
   font-weight: 700;
   font-family: Roboto;
-  src: url(../fonts/Roboto-Bold.ttf);
+  src: url("../fonts/Roboto-Bold.ttf");
 }
 * {
   box-sizing: border-box;
@@ -129,7 +129,7 @@ h2 {
 }
 
 .bg-header {
-  background: url(../images/banner.png);
+  background: url("../images/banner.png");
   background-position: center;
   background-size: cover;
 }
@@ -502,8 +502,7 @@ h2 {
 
 .page-app {
   display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
+  flex-flow: row-reverse wrap;
   justify-content: left;
 }
 
@@ -642,7 +641,7 @@ hr.border {
 .color-purple::before {
   margin-right: 24px;
   display: block;
-  content: url(../images/play-button.svg);
+  content: url("../images/play-button.svg");
   width: 20px;
   height: 20px;
   filter: invert(1);
@@ -660,7 +659,7 @@ hr.border {
 .mt .color-orange::before {
   margin-right: 24px;
   display: block;
-  content: url(../images/heart.svg);
+  content: url("../images/heart.svg");
   width: 20px;
   height: 20px;
   filter: invert(1);
@@ -745,7 +744,8 @@ hr.border {
   flex-wrap: wrap;
 }
 
-.discography-item, .similar-item {
+.discography-item,
+.similar-item {
   margin-right: 50px;
   margin-bottom: 25px;
 }
@@ -783,7 +783,8 @@ hr.border {
 }
 
 @media (max-width: 414px) {
-  .discography-item, .similar-item {
+  .discography-item,
+  .similar-item {
     width: 137px;
     height: auto;
   }

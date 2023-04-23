@@ -1,15 +1,15 @@
 @import "./variables";
 
 @font-face {
-    font-weight: 400;
-    font-family: Roboto;
-    src: url(../fonts/Roboto-Regular.ttf);
+  font-weight: 400;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
 }
 
 @font-face {
-    font-weight: 700;
-    font-family: Roboto;
-    src: url(../fonts/Roboto-Bold.ttf);
+  font-weight: 700;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Bold.ttf");
 }
 
 * {
@@ -37,36 +37,34 @@ h1 {
   line-height: 90px;
   text-transform: uppercase;
   font-weight: bold;
-  }
+}
 
 h2 {
   font-size: 38px;
   line-height: 57px;
   text-transform: uppercase;
   font-weight: bold;
-  }
-
-
+}
 
 @media (max-width: 414px) {
   .conteiner {
     width: 100%;
   }
 
- h1 {
-  font-size: 30px;
-  line-height: 45px;
-  text-transform: uppercase;
-  font-weight: bold;
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
 
-  margin-top: 48px;
+    margin-top: 48px;
   }
 
   h2 {
-  font-size: 18px;
-  line-height: 27px;
-  text-transform: uppercase;
-  font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    font-weight: bold;
  }
 }
 
@@ -104,15 +102,15 @@ h2 {
 
 .mr-top {
   margin-top: 31px;
- }
+}
 
  .text-gray {
   color: $gray;
- }
+}
 
  .text-white {
   color: $white
- }
+}
 
  .mr-right {
   margin-right: 16px;

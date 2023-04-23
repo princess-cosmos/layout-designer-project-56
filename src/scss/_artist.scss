@@ -1,177 +1,176 @@
 @import "./variables";
 
 .main-artist {
-    padding: 225px 0;
-    color: $white;
+  padding: 225px 0;
+  color: $white;
 }
 
 .color-purple {
-    background-color: $purple;
-  }
-  
+  background-color: $purple;
+}
+
 .color-purple::before {
-    margin-right: 24px;
-    display: block;
-    content: url(../images/play-button.svg);
-    width: 20px;
-    height: 20px;
-    filter: invert(1);
-  }
-  
+  margin-right: 24px;
+  display: block;
+  content: url("../images/play-button.svg");
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+}
+
 .mt > button {
-    display: inline-flex;
-    align-items: center;
-  }
-  
+  display: inline-flex;
+  align-items: center;
+}
+
 .color-orange {
-    background-color: $red
-  }
+  background-color: $red
+}
 
 .mt {
 .color-orange::before {
-    margin-right: 24px;
-    display: block;
-    content: url(../images/heart.svg);
-    width: 20px;
-    height: 20px;
-    filter: invert(1);
+  margin-right: 24px;
+  display: block;
+  content: url("../images/heart.svg");
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
   }
 }
-  
+
 .w-200 {
-    width: 200px;
-    height: 62px;
-    font-size: 12.8px;
-    margin-bottom: 24px;
-  }
-  
+  width: 200px;
+  height: 62px;
+  font-size: 12.8px;
+  margin-bottom: 24px;
+}
+
 .w-570 {
-    width: 570px;
-    height: 57px;
-  }
+  width: 570px;
+  height: 57px;
+}
 
 #page-popular-track {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .column-2 {
-    margin-top: 48px;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 50px;
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
 }
 
 .popular-track {
-    display: flex;
-    align-items: center;
-    width: 551px;
+  display: flex;
+  align-items: center;
+  width: 551px;
 
-    font-size: 12.8px;
+  font-size: 12.8px;
 }
 
 .track-info {
-    justify-self: start;
+  justify-self: start;
 
-    h3 {
-        font-size: 12.8px;
-        font-weight: bold;
+  h3 {
+    font-size: 12.8px;
+    font-weight: bold;
     }
 }
 
 .content-end {
-    justify-content: end;
+  justify-content: end;
 }
 
 .img-track {
-    width: 55px;
-    height: 55px;
+  width: 55px;
+  height: 55px;
 
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 @media (max-width: 414px) {
-    .main-artist {
-        padding-bottom: 200px;
-    }
+  .main-artist {
+    padding-bottom: 200px;
+  }
 
-.mb {
+  .mb {
     margin-top: 0;
-    }
-.popular-track {
+  }
+  .popular-track {
     width: 374px;
- }
+  }
 }
 
 #page-similar {
-    padding-top: 100px;
-    margin-bottom: 100px;
+  padding-top: 100px;
+  margin-bottom: 100px;
 }
 
 .similar-info {
-    text-align: center;
+  text-align: center;
 }
 
 #page-discography {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .page-discography {
-    margin-top: 48px;
-    display: flex;
-    flex-wrap: wrap;
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.discography-item, .similar-item {
-    margin-right: 50px;
-    margin-bottom: 25px;
+.discography-item,
+.similar-item {
+  margin-right: 50px;
+  margin-bottom: 25px;
 }
 
 .discography-item:nth-child(5),
 .discography-item:nth-child(6) {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .discography-item:nth-child(4),
 .similar-item:nth-child(4),
 .similar-item:nth-child(8) {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .similar-item:nth-child(7),
 .similar-item:nth-child(8) {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .discography-info {
-    margin-top: 10px;
+  margin-top: 10px;
 
-    h3 {
-        font-size: 18px;
-        line-height: 27px;
-        font-weight: bold;
-    }
+  h3 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+  }
 }
 
 .similar-item  {
-    h3 {
-        margin-top: 11px;
-        font-size: 18px;
-        line-height: 27px;
-        font-weight: bold;
-    }
+  h3 {
+    margin-top: 11px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+  }
 }
 
-
 @media (max-width: 414px) {
-    .discography-item, .similar-item {
-        width: 137px;
-        height: auto;
-    
-        }
-       .discography-img {
-        width: 137px;
-        height: 137px;
-       }
+  .discography-item,
+  .similar-item {
+    width: 137px;
+    height: auto;
+  }
 
-
+  .discography-img {
+    width: 137px;
+    height: 137px;
+    }
 }
