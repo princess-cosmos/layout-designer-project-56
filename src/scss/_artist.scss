@@ -24,17 +24,17 @@
 }
 
 .color-orange {
-  background-color: $red
+  background-color: $red;
 }
 
 .mt {
-.color-orange::before {
-  margin-right: 24px;
-  display: block;
-  content: url("../images/heart.svg");
-  width: 20px;
-  height: 20px;
-  filter: invert(1);
+  .color-orange::before {
+    margin-right: 24px;
+    display: block;
+    content: url("../images/heart.svg");
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
   }
 }
 
@@ -75,7 +75,7 @@
   h3 {
     font-size: 12.8px;
     font-weight: bold;
-    }
+  }
 }
 
 .content-end {
@@ -97,6 +97,7 @@
   .mb {
     margin-top: 0;
   }
+
   .popular-track {
     width: 374px;
   }
@@ -127,6 +128,15 @@
   margin-bottom: 25px;
 }
 
+.similar-item  {
+  h3 {
+    margin-top: 11px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+  }
+}
+
 .discography-item:nth-child(5),
 .discography-item:nth-child(6) {
   margin-bottom: 0;
@@ -153,15 +163,6 @@
   }
 }
 
-.similar-item  {
-  h3 {
-    margin-top: 11px;
-    font-size: 18px;
-    line-height: 27px;
-    font-weight: bold;
-  }
-}
-
 @media (max-width: 414px) {
   .discography-item,
   .similar-item {
@@ -172,5 +173,5 @@
   .discography-img {
     width: 137px;
     height: 137px;
-    }
+  }
 }

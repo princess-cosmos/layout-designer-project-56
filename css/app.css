@@ -18,8 +18,8 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #CACACA;
-  background: #08020D;
+  color: #cacaca;
+  background: #08020d;
 }
 
 .conteiner {
@@ -89,7 +89,7 @@ h2 {
 }
 
 .color-green {
-  background-color: #34C176;
+  background-color: #34c176;
 }
 
 .mr-top {
@@ -97,11 +97,11 @@ h2 {
 }
 
 .text-gray {
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 .text-white {
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .mr-right {
@@ -166,7 +166,7 @@ h2 {
 .header-wrapper a {
   text-transform: uppercase;
   text-decoration: none;
-  color: #CACACA;
+  color: #cacaca;
 }
 .header-wrapper li {
   list-style: none;
@@ -189,7 +189,7 @@ h2 {
 }
 
 .header-search {
-  background: #3C3B3D;
+  background: #3c3b3d;
   border-radius: 50px;
   width: 248px;
   height: 25px;
@@ -201,7 +201,7 @@ h2 {
 
 .description {
   padding: 200px 20px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .fieldset-form {
@@ -220,20 +220,20 @@ h2 {
 }
 
 .form-seach::-moz-placeholder {
-  color: #FFFFFF;
+  color: #fff;
   font-weight: 700;
   font-size: 14px;
 }
 
 .form-seach::placeholder {
-  color: #FFFFFF;
+  color: #fff;
   font-weight: 700;
   font-size: 14px;
 }
 
 .btn {
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #fff;
   padding: 20px 30px;
   border-radius: 5px;
   border: 0;
@@ -274,7 +274,7 @@ h2 {
   padding-top: 100px;
   text-align: center;
   overflow: hidden;
-  color: #FFFFFF;
+  color: #fff;
 }
 .page-pricing h2 {
   margin-bottom: 48px;
@@ -292,31 +292,31 @@ h2 {
 }
 
 .bg-one {
-  background-image: url(../images/subscribe_1.png);
+  background-image: url("../images/subscribe_1.png");
   background-size: cover;
   background-position: top;
 }
 
 .bg-two {
-  background-image: url(../images/subscribe_2.png);
+  background-image: url("../images/subscribe_2.png");
   background-size: cover;
   background-position: top;
 }
 
 .bg-three {
-  background-image: url(../images/subscribe_3.png);
+  background-image: url("../images/subscribe_3.png");
   background-size: cover;
   background-position: top;
 }
 
 .pricing-item {
   max-width: 366.66px;
-  padding: 24px 24px 0 24px;
+  padding: 24px 24px 0;
   border-radius: 1rem;
 }
 .pricing-item .form-pricing {
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #fff;
   border: 2px solid #cacaca;
   border-radius: 3px;
   background-color: transparent;
@@ -358,7 +358,7 @@ h2 {
     margin-bottom: 40px;
   }
   .pricing .pricing-item {
-    padding: 16px 24px 0 24px;
+    padding: 16px 24px 0;
   }
   .pricing-value {
     display: flex;
@@ -416,7 +416,7 @@ h2 {
   font-weight: 400;
 }
 .news-item p {
-  color: #CACACA;
+  color: #cacaca;
   font-size: 16px;
 }
 
@@ -429,7 +429,7 @@ h2 {
   display: inline;
 }
 .news-footer .text-orange {
-  color: #F89202;
+  color: #f89202;
 }
 
 .to-albome {
@@ -438,8 +438,8 @@ h2 {
   padding: 17px 31px;
   width: 135px;
   height: 53px;
-  color: #CACACA;
-  border: 1px solid #CACACA;
+  color: #cacaca;
+  border: 1px solid #cacaca;
   border-radius: 5px;
   text-decoration: none;
 }
@@ -457,8 +457,7 @@ h2 {
     flex-direction: row;
   }
   .news-item {
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-flow: column wrap;
   }
   .news-item img {
     width: 373px;
@@ -508,11 +507,11 @@ h2 {
 
 h2 {
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .color-orange {
-  background-color: #95390C;
+  background-color: #95390c;
 }
 
 .btn-1 {
@@ -520,7 +519,7 @@ h2 {
   border-radius: 32px;
   padding: 16px 40px;
   font-size: 12.8px;
-  color: #FFFFFF;
+  color: #fff;
   border: none;
 }
 
@@ -577,7 +576,7 @@ h2 {
   list-style-type: none;
 }
 .footer a {
-  color: #E0E0E0;
+  color: #e0e0e0;
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
@@ -592,7 +591,7 @@ h2 {
 }
 
 hr.border {
-  border: 1px solid #E0E0E0;
+  border: 1px solid #e0e0e0;
   min-width: 1200px;
 }
 
@@ -603,7 +602,7 @@ hr.border {
   flex-wrap: wrap;
 }
 .after-footer a {
-  color: #E0E0E0;
+  color: #e0e0e0;
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
@@ -631,11 +630,11 @@ hr.border {
 }
 .main-artist {
   padding: 225px 0;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .color-purple {
-  background-color: #5328A1;
+  background-color: #5328a1;
 }
 
 .color-purple::before {
@@ -653,7 +652,7 @@ hr.border {
 }
 
 .color-orange {
-  background-color: #95390C;
+  background-color: #95390c;
 }
 
 .mt .color-orange::before {
@@ -750,6 +749,13 @@ hr.border {
   margin-bottom: 25px;
 }
 
+.similar-item h3 {
+  margin-top: 11px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+}
+
 .discography-item:nth-child(5),
 .discography-item:nth-child(6) {
   margin-bottom: 0;
@@ -770,13 +776,6 @@ hr.border {
   margin-top: 10px;
 }
 .discography-info h3 {
-  font-size: 18px;
-  line-height: 27px;
-  font-weight: bold;
-}
-
-.similar-item h3 {
-  margin-top: 11px;
   font-size: 18px;
   line-height: 27px;
   font-weight: bold;

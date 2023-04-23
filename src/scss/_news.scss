@@ -88,12 +88,11 @@
 
 @media (max-width: 414px) {
   .row-reverse {
-  flex-direction: row;
+    flex-direction: row;
   }
 
   .news-item {
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-flow: column wrap;
 
     img {
       width: 373px;
@@ -123,8 +122,8 @@
     }
   }
 
-  .block-2 { 
-  margin-right: 0;
+  .block-2 {
+    margin-right: 0;
     
     .bottom-24 {
       max-width: 375px;

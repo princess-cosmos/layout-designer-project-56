@@ -1,63 +1,62 @@
 @import "./variables";
 
 .page-pricing {
-    padding-top: 100px;
-    text-align: center;
-    overflow: hidden;
-    color: $white;
+  padding-top: 100px;
+  text-align: center;
+  overflow: hidden;
+  color: $white;
 
-    h2 {
-        margin-bottom: 48px;
-    }
+  h2 {
+    margin-bottom: 48px;
+  }
 }
 
 .width-1240 {
-    max-width: 1240px;
+  max-width: 1240px;
 }
 
 .pricing {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    margin-bottom: 40px;
-
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 40px;
 }
 
 .bg-one {
-    background-image: url(../images/subscribe_1.png);
-    background-size: cover;
-    background-position: top;
+  background-image: url("../images/subscribe_1.png");
+  background-size: cover;
+  background-position: top;
 }
 
 .bg-two {
-    background-image: url(../images/subscribe_2.png);
-    background-size: cover;
-    background-position: top;
+  background-image: url("../images/subscribe_2.png");
+  background-size: cover;
+  background-position: top;
 }
 
 .bg-three {
-    background-image: url(../images/subscribe_3.png);
-    background-size: cover;
-    background-position: top;
+  background-image: url("../images/subscribe_3.png");
+  background-size: cover;
+  background-position: top;
 }
 
 .pricing-item {
-    max-width: 366.66px;
-    padding: 24px 24px 0 24px;
-    border-radius: 1rem;
+  max-width: 366.66px;
+  padding: 24px 24px 0;
+  border-radius: 1rem;
 
-    .form-pricing {
-        text-transform: uppercase;
-        color: $white;
-        border: 2px solid #cacaca;
-        border-radius: 3px;
-        background-color: transparent;
-        width: 318px;
-        height: 66px;
-        display: block;
-        padding: 21px 0;
-        text-decoration: none;
-    }
+  .form-pricing {
+    text-transform: uppercase;
+    color: $white;
+    border: 2px solid #cacaca;
+    border-radius: 3px;
+    background-color: transparent;
+    width: 318px;
+    height: 66px;
+    display: block;
+    padding: 21px 0;
+    text-decoration: none;
+  }
 }
 
 .pricing-value {
@@ -68,54 +67,50 @@
   font-size: 64px;
   
   .value {
-  vertical-align: super;
-  margin-left: 16px;
-  font-size: 32px;
+    vertical-align: super;
+    margin-left: 16px;
+    font-size: 32px;
   }
 }
 
 .text-transform-white {
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 24px;
 }
-
 
 @media (max-width: 414px) {
-    .pricing-item {
+  .pricing-item {
     width: 374px;
     max-width: 374px;
+  }
 
+  .text-transform-white {
+    font-size: 16px;
+  }
+
+  .pricing {
+    margin-bottom: 40px;
+
+    .pricing-item {
+      padding: 16px 24px 0;
     }
+  }
 
-    .text-transform-white {
-        font-size: 16px;
+  .pricing-value {
+    display: flex;
+    justify-content: center;
+
+    .value {
+      position: relative;
+      top: -10px;
     }
-
-    .pricing {
-        margin-bottom: 40px;
-
-        .pricing-item {
-            padding: 16px 24px 0 24px;
-        }
-    }
-
-    .pricing-value {
-        display: flex;
-        justify-content: center;
-
-        .value {
-            position: relative;
-            top: -10px;
-            }
-        }
-    }
-
-.pricing-footer {
-    margin: 64px 0;
-    width: 318px;
-    height: 57px;
-    font-size: 12.8px;
+  }
 }
 
-
+.pricing-footer {
+  margin: 64px 0;
+  width: 318px;
+  height: 57px;
+  font-size: 12.8px;
+}
